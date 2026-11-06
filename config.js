@@ -7,6 +7,13 @@ const CONFIG={
  mpesaLabel:"Till Number",                      // or "Paybill" / "Phone number"
  mpesaNumber:"ADD_YOUR_TILL_OR_NUMBER",
  mpesaName:"Dera by Ms Mulae",
- firebase:null,                                 // paste your Firebase config here, between { and }, replacing null
- cloudinary:{cloud:"",preset:""}                // paste Cloudinary cloud name + unsigned preset here
+ firebase:{
+  apiKey: "AIzaSyDuV5ymisFL1Qjpcf2fXmg-UgvgQsRTTAk",
+  authDomain: "dera-shop-1333f.firebaseapp.com",
+  projectId: "dera-shop-1333f",
+  storageBucket: "dera-shop-1333f.firebasestorage.app",
+  messagingSenderId: "255968545745",
+  appId: "1:255968545745:web:573830c7253a4800a3eef0"
+},                                 // paste your Firebase config here, between { and }, replacing null
+ cloudinary:{cloud:"vofqej8l",preset:"enn5v0vb"}                // paste Cloudinary cloud name + unsigned preset here
 };
